@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    padding-left: 1rem;
+}  
+li{
+    padding-top: 5px;
+    list-style-position: inside;
+}
+.ort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pt-15{padding-top: 15px;}
+.pt-10{padding-top: 10px;}
+.pt-5{padding-top: 5px;}
+.urunlerimiz-content > div{
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.radius{
+    border-radius: 7px;
+}
+.hakkimizda-content > div{
+    padding-bottom: 0.6rem;
+    padding-left: 10px;
+}
